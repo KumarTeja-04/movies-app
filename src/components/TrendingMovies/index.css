@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-container {
+  width: 1300px;
+  max-width: 1400px;
+  margin-top: 10px;
+}
+
+.slider {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.list-item {
+  background: transparent;
+  list-style-type: none;
+}
+
+.poster-image {
+  margin: 0px 10px;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .poster-image {
+    margin: 0px 15px;
+    height: 120px;
+    width: 120px;
+  }
+
+  .slider {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .poster-image {
+    margin: 0px 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+  }
+}

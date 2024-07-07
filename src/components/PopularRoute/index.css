@@ -1,0 +1,32 @@
+@media screen and (min-width: 1025px) {
+  .popular-container {
+    background-color: black;
+  }
+  .popular-movies-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 45px;
+    padding-right: 19px;
+    display: flex;
+    margin-left: 150px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popular-container {
+    background-color: black;
+  }
+  .popular-movies-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 33px;
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+}

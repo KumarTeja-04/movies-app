@@ -1,0 +1,120 @@
+@media screen and (min-width: 1025px) {
+  .search-result-container {
+    margin-left: 130px;
+    width: 1200px;
+    padding-left: 32px;
+    padding-right: 19px;
+    min-height: 90vh;
+    display: flex;
+    align-items: flex-start;
+  }
+  .search-main-container {
+    background-color: black;
+  }
+  .ul-search {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    min-width: 1300px;
+    margin-left: -20px;
+  }
+  .no-results {
+    padding-top: 200px;
+    padding-left: 400px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-img {
+    height: 450px;
+    width: 378px;
+    margin-bottom: 24px;
+  }
+  .no-results-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    width: 296px;
+  }
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .search-container {
+    padding-left: 165px;
+    padding-right: 135px;
+  }
+  .ul-search {
+    margin-top: 32px;
+  }
+  .no-results-img {
+    width: 450px;
+    height: 378px;
+    margin-bottom: 48px;
+  }
+  .no-results-text {
+    padding: 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 31px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-result-container {
+    padding-left: 30px;
+    margin-top: 20px;
+    min-height: 90vh;
+  }
+  .search-main-container {
+    background-color: black;
+  }
+
+  .ul-search {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .no-results {
+    padding-top: 150px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .failure-img {
+    height: 209.52px;
+    width: 209px;
+    margin-bottom: 24px;
+  }
+  .no-results-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    width: 195px;
+    height: 48px;
+  }
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+}

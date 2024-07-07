@@ -1,0 +1,100 @@
+@media screen and (min-width: 1025px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+  }
+  .movies-page {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .slick-container {
+    width: 80%;
+    max-width: 1100px;
+    margin-top: 10px;
+  }
+
+  .list-item {
+    background: transparent;
+    list-style-type: none;
+  }
+
+  .movie-img {
+    margin: 0px 30px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .slick-prev:before {
+    background-image: url('https://res.cloudinary.com/drqsxn51c/image/upload/v1704976060/chevron_left_qb87hr.png');
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: '';
+  }
+  .slick-next:before {
+    background-image: url('https://res.cloudinary.com/drqsxn51c/image/upload/v1704976060/chevron_right_v9rzkm.png');
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: '';
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movies-page {
+    width: 300px;
+    height: 64px;
+    padding-left: 10px;
+  }
+
+  .slick-container {
+    width: 80%;
+    max-width: 1100px;
+    margin-top: 10px;
+  }
+
+  .list-item {
+    background: transparent;
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .movie-img {
+    margin: 0px 10px;
+    height: 100px;
+    width: 120px;
+    border-radius: 10px;
+    padding: 0px;
+  }
+
+  .slick-prev:before {
+    background-image: url('https://res.cloudinary.com/drqsxn51c/image/upload/v1704976060/chevron_left_qb87hr.png');
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: '';
+  }
+  .slick-next:before {
+    background-image: url('https://res.cloudinary.com/drqsxn51c/image/upload/v1704976060/chevron_right_v9rzkm.png');
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: '';
+  }
+}
